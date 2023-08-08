@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <h1>Campeonato</h1>
+    <p>Primeiro Colocado: <span class="colocado"></span></p>
+    <p>Segundo Colocado: <span class="colocado"></span></p>
+    <p>Terceiro Colocado: <span class="colocado"></span></p>
+
+    <p>Novo Classificado:<input type="text" id="novo"></p>
+    Posição:<input type="number" id="posicao" min="1" max="3">
+    <button onclick="inserir()">Inserir</button>
+
+    <h1>ESCOLHA UM DIA:</h1>
+        <ul>
+            <li>Segunda</li>
+            <li>Terça</li>
+            <li>Quarta</li>
+            <li>Quinta</li>
+            <li>Sexta</li>
+        </ul>
+        <p>Escolha um dia: <input type="number" id="numero" min="1" max="5"></p>
+        <button onclick="mostrar()">Mostrar</button>
+        <p>O dia escolhido foi:<span id="resultado"></span></p>
+
+</body>
+</html>
